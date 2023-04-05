@@ -3,7 +3,7 @@ import React from 'react'
 const Welcome = () => {
   return (
     <div>
-      <div className="d-flex vh-100">
+      <div className="d-flex flex-column vh-100">
         <div class="row">
           <div className='col-6'>
             <img className="logo-img align-self-start" style={{marginTop: '150px'}} src="logo-sm.png" alt="Logo" />
