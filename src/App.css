@@ -2,3 +2,10 @@
     width: 15%;
     height: auto;
 }
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #C83B53!important;
+}
