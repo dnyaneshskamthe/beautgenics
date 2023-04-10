@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Welcome from '../login/Welcome';
+import SignIn from '../login/SignIn';
+import Header from '../header/Header';
+import Home from '../home/Home';
 
 const Splash = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -20,7 +23,9 @@ const Splash = () => {
     );
   }
 
-  return <Welcome />;
+  // return <Welcome />;
+  // return <SignIn/>
+  return <Home/>
 };
 
 export default Splash;
